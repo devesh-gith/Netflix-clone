@@ -1,0 +1,51 @@
+.profileScreen {
+  min-height: 100vh;
+  overflow-y: hidden;
+}
+.profile__body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileScreen__info {
+  display: flex;
+}
+.profileScreen__info > img {
+  height: 100px;
+}
+.profile__body > h1 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.profileScreen_details {
+  margin-left: 40px;
+}
+.profileScreen_details > h1 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  background: grey;
+  padding: 5px 15px;
+}
+.profileScreen__plans > h2 {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.signOut__button {
+  background: #e50914;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+}
+/* .signOut__button:hover {
+  transition: transform 250ms;
+  transform: scale(1.1);
+} */
+.signOut__button:active {
+  transform: scale(0.96);
+}
